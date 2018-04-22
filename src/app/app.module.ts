@@ -4,11 +4,35 @@ import {MDBChartsModule,MDBBootstrapModule} from 'angular-bootstrap-md';
 
 
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './componentes/home-page/home-page.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { PhonesComponent } from './componentes/phones/phones.component';
+import { AndroidComponent } from './componentes/android/android.component';
+import { IcloudComponent } from './componentes/icloud/icloud.component';
+import { DesarrolloWebComponent } from './componentes/desarrollo-web/desarrollo-web.component';
+import { DesarrolloSistemasComponent } from './componentes/desarrollo-sistemas/desarrollo-sistemas.component';
+import { DiseñoGraficoComponent } from './componentes/diseño-grafico/diseño-grafico.component';
+import { DescargasComponent } from './componentes/descargas/descargas.component';
+import { ProgramasPcComponent } from './componentes/programas-pc/programas-pc.component';
+import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
+import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    NavbarComponent,
+    PhonesComponent,
+    AndroidComponent,
+    IcloudComponent,
+    DesarrolloWebComponent,
+    DesarrolloSistemasComponent,
+    DiseñoGraficoComponent,
+    DescargasComponent,
+    ProgramasPcComponent,
+    NotFoundPageComponent,
+    ContactenosComponent
   ],
   imports: [
     BrowserModule,
