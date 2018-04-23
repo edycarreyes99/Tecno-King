@@ -19,6 +19,7 @@ import { DescargasComponent } from './componentes/descargas/descargas.component'
 import { ProgramasPcComponent } from './componentes/programas-pc/programas-pc.component';
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
+import { CaruouselComponent } from './componentes/caruousel/caruousel.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ContactenosComponent } from './componentes/contactenos/contactenos.comp
     DescargasComponent,
     ProgramasPcComponent,
     NotFoundPageComponent,
-    ContactenosComponent
+    ContactenosComponent,
+    CaruouselComponent
   ],
   imports: [
     BrowserModule,
