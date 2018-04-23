@@ -40,7 +40,7 @@ import { ContactenosComponent } from './componentes/contactenos/contactenos.comp
     MDBChartsModule,
   ],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [],
+  providers: [NavbarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
