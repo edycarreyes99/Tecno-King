@@ -37,7 +37,7 @@ import { ContactenosComponent } from './componentes/contactenos/contactenos.comp
   imports: [
     BrowserModule,
     MDBBootstrapModule,
-    MDBChartsModule
+    MDBChartsModule,
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [],
