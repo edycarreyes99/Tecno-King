@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {BsDropdownModule,BsDropdownToggleDirective,BsDropdownConfig,BsDropdownContainerComponent,BsDropdownDirective,BsDropdownMenuDirective,BsDropdownState} from 'angular-bootstrap-md/dropdown';
-import {AppRoutingModule} from '../../app-routing.module';
+import {Router,RouterLink} from '@angular/router';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -8,7 +8,9 @@ import {AppRoutingModule} from '../../app-routing.module';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public router: Router,
+  ) { }
 
   ngOnInit() {
   }

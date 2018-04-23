@@ -19,7 +19,7 @@ const routes: Routes = [
   {path: 'desarrolloSistemas', component: DesarrolloSistemasComponent},
   {path: 'desarrolloWeb', component: DesarrolloWebComponent},
   {path: 'descargas', component: DescargasComponent},
-  {path: 'diseñoGrafico', component: DiseñoGraficoComponent},
+  {path: 'disenoGrafico', component: DiseñoGraficoComponent},
   {path: 'iCloud', component: IcloudComponent},
   {path: '**', component: NotFoundPageComponent},
   {path: 'phones', component: PhonesComponent},

@@ -1,3 +1,6 @@
+
+import {FormsModule} from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import {MDBChartsModule,MDBBootstrapModule} from 'angular-bootstrap-md';
@@ -38,6 +41,7 @@ import { ContactenosComponent } from './componentes/contactenos/contactenos.comp
     BrowserModule,
     MDBBootstrapModule,
     MDBChartsModule,
+    AppRoutingModule,
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [NavbarComponent],
