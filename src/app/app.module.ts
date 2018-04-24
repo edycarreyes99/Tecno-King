@@ -2,6 +2,8 @@
 import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import {MDBChartsModule,MDBBootstrapModule} from 'angular-bootstrap-md';
 
@@ -21,6 +23,30 @@ import { NotFoundPageComponent } from './componentes/not-found-page/not-found-pa
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 import { CaruouselComponent } from './componentes/caruousel/caruousel.component';
 import { MaterializeModule } from 'angular2-materialize';
+import{
+  MatButtonModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatDatepickerModule,
+  MatDialogModule,
+  MatExpansionModule,
+  MatFormFieldModule,
+  MatIconModule,
+  MatInputModule,
+  MatListModule,
+  MatMenuModule,
+  MatNativeDateModule,
+  MatPaginatorModule,
+  MatProgressSpinnerModule,
+  MatSelectModule,
+  MatSidenavModule,
+  MatSnackBarModule,
+  MatSortModule,
+  MatStepperModule,
+  MatTableModule,
+  MatToolbarModule,
+  MatTooltipModule,
+}from '@angular/material';
 
 
 @NgModule({
@@ -39,13 +65,62 @@ import { MaterializeModule } from 'angular2-materialize';
     NotFoundPageComponent,
     ContactenosComponent,
     CaruouselComponent,
-    MaterializeModule
+    MaterializeModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
+
+    MatButtonModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatMenuModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatStepperModule,
+    MatTableModule,
+    MatToolbarModule,
+    MatTooltipModule,
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule,
     MDBChartsModule,
     AppRoutingModule,
+
+
+    MatButtonModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatMenuModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatStepperModule,
+    MatTableModule,
+    MatToolbarModule,
+    MatTooltipModule,
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [NavbarComponent],
