@@ -20,6 +20,7 @@ import { ProgramasPcComponent } from './componentes/programas-pc/programas-pc.co
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 import { CaruouselComponent } from './componentes/caruousel/caruousel.component';
+import { MaterializeModule } from 'angular2-materialize';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { CaruouselComponent } from './componentes/caruousel/caruousel.component'
     ProgramasPcComponent,
     NotFoundPageComponent,
     ContactenosComponent,
-    CaruouselComponent
+    CaruouselComponent,
+    MaterializeModule
   ],
   imports: [
     BrowserModule,
