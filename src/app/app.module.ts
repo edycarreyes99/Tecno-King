@@ -22,7 +22,6 @@ import { ProgramasPcComponent } from './componentes/programas-pc/programas-pc.co
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 import { CaruouselComponent } from './componentes/caruousel/caruousel.component';
-import { MaterializeModule } from 'angular2-materialize';
 import{
   MatButtonModule,
   MatCardModule,
@@ -65,39 +64,13 @@ import{
     NotFoundPageComponent,
     ContactenosComponent,
     CaruouselComponent,
-    MaterializeModule,
-    BrowserAnimationsModule,
-    NoopAnimationsModule,
-
-    MatButtonModule,
-    MatCardModule,
-    MatCheckboxModule,
-    MatDatepickerModule,
-    MatDialogModule,
-    MatExpansionModule,
-    MatFormFieldModule,
-    MatIconModule,
-    MatInputModule,
-    MatListModule,
-    MatMenuModule,
-    MatNativeDateModule,
-    MatPaginatorModule,
-    MatProgressSpinnerModule,
-    MatSelectModule,
-    MatSidenavModule,
-    MatSnackBarModule,
-    MatSortModule,
-    MatStepperModule,
-    MatTableModule,
-    MatToolbarModule,
-    MatTooltipModule,
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule,
     MDBChartsModule,
     AppRoutingModule,
-
+    BrowserAnimationsModule,
 
     MatButtonModule,
     MatCardModule,
