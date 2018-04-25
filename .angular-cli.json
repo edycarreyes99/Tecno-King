@@ -22,7 +22,6 @@
         "../node_modules/font-awesome/scss/font-awesome.scss",
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/MDB/css/mdb.css",
-        "../node_modules/materialize-css/dist/css/materialize.css",
         "styles.css"
 
       ],
@@ -31,8 +30,7 @@
         "../node_modules/hammerjs/hammer.js",
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/popper.js/dist/umd/popper.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js",
-        "../node_modules/materialize-css/dist/js/materialize.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
