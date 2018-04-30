@@ -22,30 +22,7 @@ import { ProgramasPcComponent } from './componentes/programas-pc/programas-pc.co
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 import { CaruouselComponent } from './componentes/caruousel/caruousel.component';
-import{
-  MatButtonModule,
-  MatCardModule,
-  MatCheckboxModule,
-  MatDatepickerModule,
-  MatDialogModule,
-  MatExpansionModule,
-  MatFormFieldModule,
-  MatIconModule,
-  MatInputModule,
-  MatListModule,
-  MatMenuModule,
-  MatNativeDateModule,
-  MatPaginatorModule,
-  MatProgressSpinnerModule,
-  MatSelectModule,
-  MatSidenavModule,
-  MatSnackBarModule,
-  MatSortModule,
-  MatStepperModule,
-  MatTableModule,
-  MatToolbarModule,
-  MatTooltipModule,
-}from '@angular/material';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -64,36 +41,13 @@ import{
     NotFoundPageComponent,
     ContactenosComponent,
     CaruouselComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule,
-    MDBChartsModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-
-    MatButtonModule,
-    MatCardModule,
-    MatCheckboxModule,
-    MatDatepickerModule,
-    MatDialogModule,
-    MatExpansionModule,
-    MatFormFieldModule,
-    MatIconModule,
-    MatInputModule,
-    MatListModule,
-    MatMenuModule,
-    MatNativeDateModule,
-    MatPaginatorModule,
-    MatProgressSpinnerModule,
-    MatSelectModule,
-    MatSidenavModule,
-    MatSnackBarModule,
-    MatSortModule,
-    MatStepperModule,
-    MatTableModule,
-    MatToolbarModule,
-    MatTooltipModule,
+    MDBChartsModule,
+    MDBBootstrapModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [NavbarComponent],

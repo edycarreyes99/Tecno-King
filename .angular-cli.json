@@ -30,7 +30,16 @@
         "../node_modules/hammerjs/hammer.js",
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/popper.js/dist/umd/popper.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/MDB/js/mdb.js",
+        "../node_modules/parallax.js-master/parallax.js",
+        "../node_modules/garden.js/jquery.transit.min.js",
+        "../node_modules/garden.js/prefixfree.min.js",
+        "../node_modules/garden.js/skrollr.min.js",
+        "../node_modules/garden.js/snap.svg-min.js",
+        "../node_modules/garden.js/inline-svg.js",
+        "../node_modules/garden.js/main.js",
+        "../node_modules/garden.js/modernizr-2.6.2.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
