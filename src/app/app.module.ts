@@ -43,8 +43,6 @@ import { CaruouselComponent } from './componentes/caruousel/caruousel.component'
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule,
-    MDBChartsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
